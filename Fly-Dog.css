@@ -4,9 +4,12 @@
 }
 
 #Dog {
-    float: right;
     position: absolute;
     padding-left: 10px;
     padding-top: 125px;
     
+}
+#Maze {
+    position: absolute;
+    padding-bottom: 1000px;
 }
