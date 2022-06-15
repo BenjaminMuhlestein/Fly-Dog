@@ -2,14 +2,15 @@
  body{
     background-color: aqua;
 }
-
+#Moving {
+    position: absolute;
+    padding-left: 55px;
+    padding-top: 930px;
+}
 #Dog {
     position: absolute;
     padding-left: 10px;
     padding-top: 125px;
     
 }
-#Maze {
-    position: absolute;
-    padding-bottom: 1000px;
-}
+

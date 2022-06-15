@@ -28,7 +28,8 @@ document.getElementById("Background").style.width= "3000px";
 
 //Audio file
 
-//Maze 
+//Moving Guy
+document.getElementById("Moving").style.width= "150px"
 
 
 
