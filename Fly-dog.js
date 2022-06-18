@@ -1,3 +1,14 @@
+document.addEventListener('DOMContentloaed',()=>{
+    const floor=document.querySelector('.floor-moving')
+    let isGameOver=false
+    function gameOver() {
+        floor.classList.add('floor')
+        isGameOver=true
+    }
+})
+
+
+
 // Size of Dog Character 
 
 document.getElementById("Dog").style.width= "200px";
@@ -28,8 +39,20 @@ document.getElementById("Background").style.width= "3000px";
 
 //Audio file
 
-//Moving Guy
-document.getElementById("Moving").style.width= "150px"
+//Moving Guy Size
+//document.getElementById("Moving").style.width= "175px"
+  
+
+
+//Finsh Line 
+//var yPosition = EL_img.offSetLeft
+//var step  = 2
+//if(yPosition < 1200) { yPosition + step; EL_img.style.left = yPostion
+
+
+
+     
+
 
 
 
