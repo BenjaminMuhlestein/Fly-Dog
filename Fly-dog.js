@@ -1,20 +1,17 @@
-document.addEventListener('DOMContentloaed',()=>{
-    const floor=document.querySelector('.floor-moving')
-    let isGameOver=false
-    function gameOver() {
-        floor.classList.add('floor')
-        isGameOver=true
-    }
-})
 
 
+// Finsh Line Dog Character 
 
-// Size of Dog Character 
 
-document.getElementById("Dog").style.width= "200px";
+//var leftPosition = this.dogElement.offsetLeft
+//function
+//if(leftPosition < 1500) { this.dogElement.style.left = leftPosition + 'px'
+//stopMovementLoop(){ }
+//this.dogElement = document.getElementById(this.dog)
+
 
 // Make Dog Character Move 
-const EL_img = document.querySelector("#Dog");
+const EL_img = document.querySelector("#dog");
 const pos = {x:0, y:0};
 
 document.addEventListener("keydown", (ev) => {
@@ -34,20 +31,6 @@ document.addEventListener("keydown", (ev) => {
   EL_img.style.transform = `translate(${pos.x}px, ${pos.y}px)`
 });
         
-// Background Size 
-document.getElementById("Background").style.width= "3000px";
-
-//Audio file
-
-//Moving Guy Size
-//document.getElementById("Moving").style.width= "175px"
-  
-
-
-//Finsh Line 
-//var yPosition = EL_img.offSetLeft
-//var step  = 2
-//if(yPosition < 1200) { yPosition + step; EL_img.style.left = yPostion
 
 
 

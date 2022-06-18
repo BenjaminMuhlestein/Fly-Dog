@@ -5,18 +5,25 @@
  body{
     background-color: aqua;
 }
+
+#background{
+    height: auto;
+    width: 3000px;
+
+}
 marquee {
     position: absolute;
-    padding-left: 100px;
-    padding-top: 850px;
     
-    width: 129%;
+    padding-top: 880px;
+    
+    width: 141%;
     
 }
-#Dog {
+#dog {
+    width: 200px;
     position: absolute;
     padding-left: 20px;
-    padding-top: 850px;
+    padding-top: 890px;
     
 }
 
