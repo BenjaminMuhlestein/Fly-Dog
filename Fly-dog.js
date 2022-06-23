@@ -1,10 +1,22 @@
 
 
 // Finsh Line Dog Character 
+// var leftPosition = this.dogElement.offsetLeft
+// function raceComplete(racetracker){
+//   winner = racetracker.winner}
+//   function fly(){
+//   if (Right.pos.x >= 2260) {
+//      racetrack.function(Finish)= true;
+//      racetrack.winner = "dog";
+//      raceComplete()
+//   } else if (pos.x >= 2260){
+//     racetrack.winner = "red-guy"
+//   }
+//   }
 
-
-
-
+// this.dogElement.style.left = leftPosition + 'px'
+// stopMovementLoop()
+// this.dogElement = document.getElementById(this.dog)
 
 
 // Make Dog Character Move 
