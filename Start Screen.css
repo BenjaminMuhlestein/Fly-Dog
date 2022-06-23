@@ -1,0 +1,46 @@
+
+
+
+
+button {
+    top: 380px;
+    left: 575px;
+    position: absolute;
+    background-color:rgb(13, 228, 13);
+    height: 100px;
+    width: 200px;
+    border-style:groove;
+    font-size: larger;
+    
+
+
+}   
+
+h1 {
+    margin-bottom: 10px;
+    position:absolute;
+    top: 520px
+
+    
+}
+
+p{
+    
+    top: 550px;
+    position: absolute;
+    color: blue;
+    font-size: 20px;
+    text-indent: 100;
+    font-style:italic;
+   
+
+}
+
+#page {
+    position: absolute;
+    height: 500px;
+    width: 1000px;
+    top: 50px;
+    left: 175px
+    
+}

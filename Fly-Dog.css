@@ -1,29 +1,32 @@
-*{
-    padding: 0;
-    margin: 0;
-}
+
  body{
     background-color: aqua;
 }
 
-#background{
-    height: auto;
-    width: 3000px;
+.background{
+    padding-top:50px;
+    padding-bottom: 50px;
+    padding-left: 175px;
+    height: 500px;
+    width: 1000px;
 
 }
+#dog {
+    position: absolute;
+    left: 175px;
+    top: 400px;;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+  }
+    
 marquee {
     position: absolute;
-    
-    padding-top: 880px;
-    
-    width: 141%;
-    
-}
-#dog {
-    width: 200px;
-    position: absolute;
-    padding-left: 20px;
-    padding-top: 890px;
+    left: 175px;
+    top: 400px;
+    width: 70%;
     
 }
+
+
 

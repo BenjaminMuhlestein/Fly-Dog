@@ -3,11 +3,8 @@
 // Finsh Line Dog Character 
 
 
-//var leftPosition = this.dogElement.offsetLeft
-//function
-//if(leftPosition < 1500) { this.dogElement.style.left = leftPosition + 'px'
-//stopMovementLoop(){ }
-//this.dogElement = document.getElementById(this.dog)
+
+
 
 
 // Make Dog Character Move 
@@ -20,6 +17,7 @@ document.addEventListener("keydown", (ev) => {
   if (!dir) return; // Not an arrow key.
   
   ev.preventDefault(); // Prevent Browser scroll if overflow
+ 
 
   ({
     Left:  () => pos.x -= 70,
@@ -32,9 +30,6 @@ document.addEventListener("keydown", (ev) => {
 });
         
 
-
-
-     
 
 
 
